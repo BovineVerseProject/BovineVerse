@@ -1,0 +1,22 @@
+server_port = 9101
+pprof = "127.0.0.1:7999"
+debug = false
+console_mode = false
+cors = false # 跨域
+showSQL = false
+service_config = "./config/service.toml"
+
+[database]
+host = ""
+port = 5432
+user = ""
+pwd = ""
+db_name = ""
+param = ""
+
+
+[nodes]
+    [nodes.bsc]
+        rpc = "https://data-seed-prebsc-1-s1.binance.org:8545/"
+    [nodes.polygon]
+        rpc = "https://matic-mainnet.chainstacklabs.com"

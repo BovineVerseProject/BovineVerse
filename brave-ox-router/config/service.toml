@@ -1,0 +1,43 @@
+sensitive_word = "./config/sensitivedic/words.txt"
+allow_ip = ["*"] 
+chain = "polygon"
+
+
+[oss]
+endpoint = ""
+access_id = ""
+access_key = ""
+bucket = "bovine-verses"
+
+
+
+[banker]
+    [banker.airdrop]
+        address = "0xb0fE4FB305bc1A2de833fe85C71d129485226ff5"
+        key = ""
+
+[contracts]
+    [contracts.polygon.market721]
+        address = "0xade49c37762D64fC892Cda5Ce28cd28292633457"
+    [contracts.polygon.cattle]
+        address = "0xe9bf60f2590d18f90b7218538dC90da682Fb7B01"
+    [contracts.polygon.planet]
+        address = "0xC0C4Bb24dDe7beb2076E40a4d5234739B6e49E8b"
+    [contracts.polygon.planet721]
+        address = "0x86ac1F6256D9DA9cB946156AEE7b5Af93e41636a"
+    [contracts.bsc.airdrop]
+        address = "0xa3c33c1A4EF89BE5642FCC4220816B566D632A6B"
+    [contracts.polygon.breed]
+        address = "0x94fC21Da85Dc5A052Fe4A7DaF59F0C3a62D62d02"
+    [contracts.polygon.query]
+        address = "0x3E0c645C58EaD906f139273F21B55d6E1D3dC32e"
+    [contracts.polygon.item]
+        address = "0xb5100eFeE28952d232B0bCD0f6Eae5Cd9896CE98"
+    [contracts.polygon.compound]
+        address = "0xC3e3C9863884c2876E6B60739fB6E943F04a3425"
+    [contracts.polygon.stable]
+    	address = "0xc0e0207665351Faf1df70dCD7C14F810eA197d8b"
+    [contracts.polygon.invite]
+        address = "0xAbfe7DFc8D4fAeAdf534F13D3f68264816C21a15"
+    [contracts.polygon.mail]
+        address = "0x5679756Ffd8bE048Fc400Ddee311F20c6Ec71a55"

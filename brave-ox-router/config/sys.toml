@@ -1,0 +1,20 @@
+server_port = 9101
+debug = true
+console_mode = true
+cors = false
+showSQL = true
+service_config = "./config/service.toml"
+
+[database]
+host = ""
+port = 15432
+user = ""
+pwd = ""
+db_name = ""
+param = ""
+
+[nodes]
+    [nodes.polygon]
+       # rpc = "https://polygon-rpc.com"
+	 rpc = ""
+

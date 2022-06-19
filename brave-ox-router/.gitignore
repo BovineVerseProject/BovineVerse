@@ -1,0 +1,9 @@
+.idea
+.vscode
+*.toml.list
+go.sum
+*.log
+api/
+apidoc
+
+/bin
